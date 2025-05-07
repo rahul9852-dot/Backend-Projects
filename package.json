@@ -1,0 +1,19 @@
+{
+  "name": "01-building-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "task-cli": "./cli.js"
+  },
+  "author": "Rahul",
+  "license": "ISC",
+  "description": "Building CLI",
+  "dependencies": {
+    "commander": "^13.1.0",
+    "path": "^0.12.7"
+  }
+}
